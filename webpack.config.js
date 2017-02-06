@@ -1,5 +1,5 @@
 const { resolve } = require("path");
-
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const srcDir = resolve(__dirname, "src");
 
 module.exports = {
@@ -14,5 +14,8 @@ module.exports = {
       loader:"standard-loader",
       exclude: /node_modules/
     }]
-  }
+  },
+  plugins: [
+    new HtmlWebpackPlugin()
+  ]
 }
