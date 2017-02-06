@@ -1,0 +1,17 @@
+{
+  "name": "pwa",
+  "version": "1.0.0",
+  "description": "My first attempt at PWA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack"
+  },
+  "author": "Saul Flores",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^8.6.0",
+    "standard-loader": "^5.0.0",
+    "webpack": "2.2.0-rc.4"
+  }
+}
