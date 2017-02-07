@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 import styles from './Header.css'
 
 const Header = () => (
@@ -7,8 +8,8 @@ const Header = () => (
       <h1 className={styles.title}>PWA SEED</h1>
       <nav>
         <ul className={styles.list}>
-          <li className={styles.listItem}><a className={styles.link} href='#'> Home </a></li>
-          <li className={styles.listItem}><a className={styles.link} href='#'> About </a></li>
+          <li className={styles.listItem}><Link className={styles.link} to='/'> Home </Link></li>
+          <li className={styles.listItem}><Link className={styles.link} to='/about'> About </Link></li>
         </ul>
       </nav>
     </div>
