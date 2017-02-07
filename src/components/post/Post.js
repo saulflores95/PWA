@@ -1,10 +1,15 @@
 import React from 'react'
 import styles from './Post.css'
+import { Link } from 'react-router'
 
-const Post = () => (
+const Post = (post) => (
   <div>
-    <h2 className={styles.title}><a className={styles.link} href='#'>Blog Title</a></h2>
-    <p className={styles.content}>Content Content Content Content Content Content Content Content Content Content Content Content Content </p>
+    <h2 className={styles.title}>
+      {post.titleLink
+      ? <Link className={styles.link} to={`/post/${post.slug}`}>{post.title}</Link>
+      : post.title }
+    </h2>
+    <p className={styles.content}>{post.excerpt}</p>
   </div>
 )
 
