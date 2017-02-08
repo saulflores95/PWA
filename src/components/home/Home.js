@@ -1,12 +1,9 @@
 import React from 'react'
 import Post from '../post/Post'
-import posts from '../../../blog-posts.json'
 
-const Home = () => (
+const Home = ({posts}) => (
   <div>
-    {posts.posts.map(post => {
-      return <Post key={post.slug} {...post} titleLink />
-    })}
+    {posts.map(post => <Post key={post.slug} {...post} titleLink />)}
   </div>
 )
 
