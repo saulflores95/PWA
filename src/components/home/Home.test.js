@@ -22,3 +22,10 @@ test('Home component should render as expected', () => {
   expect(component.find(Post).length).toBe(2)
   expect(tree).toMatchSnapshot()
 })
+
+test('Home component should render as expected', () => {
+  const component = shallow(<Home posts={[]} />)
+  const tree = toJson(component)
+  expect(component.find(Post).length).toBe(0)
+  expect(tree).toMatchSnapshot()
+})
