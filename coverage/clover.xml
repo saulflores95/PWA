@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1486588628366" clover="3.2.0">
+  <project timestamp="1486588628367" name="All files">
+    <metrics statements="23" coveredstatements="18" conditionals="12" coveredconditionals="4" methods="14" coveredmethods="11" elements="49" coveredelements="33" complexity="0" loc="23" ncloc="23" packages="9" files="9" classes="9">
+      <package name="src">
+        <metrics statements="1" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <file name="index.js" path="C:\Users\Saul\Documents\GitHub\PWA\src\index.js">
+          <metrics statements="1" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="4" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.components.App">
+        <metrics statements="4" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <file name="App.js" path="C:\Users\Saul\Documents\GitHub\PWA\src\components\App\App.js">
+          <metrics statements="4" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.components.about">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="About.js" path="C:\Users\Saul\Documents\GitHub\PWA\src\components\about\About.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="4" count="2" type="stmt"/>
+          <line num="5" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.components.header">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Header.js" path="C:\Users\Saul\Documents\GitHub\PWA\src\components\header\Header.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.components.home">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <file name="Home.js" path="C:\Users\Saul\Documents\GitHub\PWA\src\components\home\Home.js">
+          <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+          <line num="4" count="2" type="stmt"/>
+          <line num="5" count="3" type="stmt"/>
+          <line num="7" count="5" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.components.notfound">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="NotFound.js" path="C:\Users\Saul\Documents\GitHub\PWA\src\components\notfound\NotFound.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="3" count="2" type="stmt"/>
+          <line num="4" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.components.post">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <file name="Post.js" path="C:\Users\Saul\Documents\GitHub\PWA\src\components\post\Post.js">
+          <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="5" count="4" type="stmt"/>
+          <line num="6" count="6" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.components.postDetail">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="PostDetail.js" path="C:\Users\Saul\Documents\GitHub\PWA\src\components\postDetail\PostDetail.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="4" count="2" type="stmt"/>
+          <line num="5" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.components.routes">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <file name="Routes.js" path="C:\Users\Saul\Documents\GitHub\PWA\src\components\routes\Routes.js">
+          <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="4" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="15" count="3" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

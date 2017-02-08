@@ -3,7 +3,10 @@ import Post from '../post/Post'
 
 const Home = ({posts}) => (
   <div>
-    {posts.map(post => <Post key={post.slug} {...post} titleLink />)}
+    {posts.length
+    ? posts.map(post => <Post key={post.slug} {...post} titleLink />) : <p>Awaiting Post </p>
+    }
+
   </div>
 )
 
