@@ -2,14 +2,14 @@ import React from 'react'
 import { BrowserRouter, Match, Miss } from 'react-router'
 
 import 'normalize.css'
-import posts from '../blog-posts.json'
-import Header from './components/header/Header'
+import posts from '../../../blog-posts.json'
+import Header from '../header/Header'
 // import Post from './components/post/Post'
 import styles from './App.css'
-import About from './components/about/About'
-import NotFound from './components/notfound/NotFound'
-import Home from './components/home/Home'
-import PostDetail from './components/postDetail/PostDetail'
+import About from '../about/About'
+import NotFound from '../notfound/NotFound'
+import Home from '../home/Home'
+import PostDetail from '../postDetail/PostDetail'
 
 const App = () => (
   <BrowserRouter>
