@@ -20,7 +20,7 @@ $RECYCLE.BIN/
 
 node_modules/
 
-coverage
+coverage/
 
 # =========================
 # Operating System Files
