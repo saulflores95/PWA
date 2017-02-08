@@ -14,11 +14,3 @@ exports[`test Home component should render as expected 1`] = `
     titleLink={true} />
 </div>
 `;
-
-exports[`test Home component should render as expected 2`] = `
-<div>
-  <p>
-    Awaiting Post 
-  </p>
-</div>
-`;
