@@ -6,7 +6,9 @@
   "scripts": {
     "build": "webpack --config=webpack.prod.js -p",
     "test": "jest",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "predeploy":"webpack --config=webpack.prod.js -p",
+    "deploy": "surge --project dist --domain https://saulpwatest.surge.sh"
   },
   "private": true,
   "author": "Saul Flores",
