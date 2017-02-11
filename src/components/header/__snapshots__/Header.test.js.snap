@@ -13,13 +13,8 @@ exports[`test Header component should render as expected 1`] = `
         <li
           className="listItem">
           <Link
-            activeClassName=""
-            activeOnlyWhenExact={false}
-            activeStyle={Object {}}
             className="link"
-            isActive={[Function]}
             replace={false}
-            style={Object {}}
             to="/">
              Home 
           </Link>
@@ -27,13 +22,8 @@ exports[`test Header component should render as expected 1`] = `
         <li
           className="listItem">
           <Link
-            activeClassName=""
-            activeOnlyWhenExact={false}
-            activeStyle={Object {}}
             className="link"
-            isActive={[Function]}
             replace={false}
-            style={Object {}}
             to="/about">
              About 
           </Link>

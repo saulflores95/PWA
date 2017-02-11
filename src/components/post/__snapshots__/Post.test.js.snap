@@ -14,13 +14,8 @@ exports[`test Post component should render as expected 2`] = `
   <h2
     className="title">
     <Link
-      activeClassName=""
-      activeOnlyWhenExact={false}
-      activeStyle={Object {}}
       className="link"
-      isActive={[Function]}
       replace={false}
-      style={Object {}}
       to="/post/undefined">
       My Post
     </Link>

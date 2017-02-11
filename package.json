@@ -6,8 +6,8 @@
   "scripts": {
     "build": "webpack --config=webpack.prod.js -p",
     "test": "jest",
-    "start": "webpack-dev-server",
-    "predeploy":"webpack --config=webpack.prod.js -p",
+    "start": "webpack-dev-server --config=webpack/webpack.dev.js",
+    "predeploy": "webpack --config=webpack/webpack.prod.js -p",
     "deploy": "surge --project dist --domain https://saulpwatest.surge.sh"
   },
   "private": true,
@@ -27,10 +27,11 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^18.1.0",
     "normalize.css": "^5.0.0",
+    "preact": "^7.2.0",
+    "preact-compat": "^3.13.1",
     "react": "^15.4.2",
     "react-addons-test-utils": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-router": "4.0.0-alpha.6",
     "standard": "^8.6.0",
     "standard-loader": "^5.0.0",
     "style-loader": "^0.13.1",
@@ -55,5 +56,8 @@
     "moduleNameMapper": {
       "\\.css$": "identity-obj-proxy"
     }
+  },
+  "dependencies": {
+    "react-router-dom": "next"
   }
 }
