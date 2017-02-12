@@ -2,6 +2,7 @@ const { resolve } = require('path')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const OfflinePlugin = require('offline-plugin');
 const webpack = require('webpack')
 
 module.exports = {
@@ -41,9 +42,10 @@ module.exports = {
     }),
     new ExtractTextPlugin('styles.[chunkhash:6].css'),
     new HtmlWebpackPlugin({
-      filename: '200.html',
+      filename: 'index.html',
       template: `./index.html`
     }),
+    new OfflinePlugin(),
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vendor'
     })
