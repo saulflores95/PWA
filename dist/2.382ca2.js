@@ -1,2 +1,0 @@
-webpackJsonp([2],{63:function(e,a,t){"use strict";Object.defineProperty(a,"__esModule",{value:!0});var n=t(0),i=t(69),l=t.n(i);const o=()=>n.default.createElement("div",null,n.default.createElement("h1",{className:l.a.heading},"Hi, I am Kristian!"),n.default.createElement("p",{className:l.a.bio},"This section is all about me, yay!"));a.default=o},69:function(e,a){e.exports={heading:"-About-heading-1a--CN-",bio:"-About-bio-23zQxT-"}}});
-//# sourceMappingURL=2.382ca2.js.map
