@@ -1,12 +1,35 @@
 CACHE MANIFEST
-#ver:2/11/2017, 8:58:23 PM
+#ver:3/11/2017, 1:56:17 PM
 #plugin:4.6.1
 
 CACHE:
-/app.e73331.js
-/vendor.26cf45.js
-/styles.e73331.css
+/0.20b234.js
+/1.b48f1f.js
+/2.382ca2.js
+/3.f113af.js
+/app.4d3a57.js
+/vendor.5fd5dc.js
+/styles.4d3a57.css
 /
+/apple-touch-icon-144x144.png
+/apple-touch-icon-114x114.png
+/apple-touch-icon-152x152.png
+/apple-touch-icon-120x120.png
+/apple-touch-icon-57x57.png
+/apple-touch-icon-72x72.png
+/favicon-16x16.png
+/icon-128x128.png
+/favicon-32x32.png
+/icon-144x144.png
+/icon-152x152.png
+/icon-192x192.png
+/icon-384x384.png
+/icon-512x512.png
+/icon-72x72.png
+/icon-96x96.png
+/mstile-144x144.png
+/favicon.ico
+/manifest.json
 
 NETWORK:
 *

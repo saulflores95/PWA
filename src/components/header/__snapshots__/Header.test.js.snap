@@ -5,7 +5,7 @@ exports[`test Header component should render as expected 1`] = `
     className="container">
     <h1
       className="title">
-      PWA SEED
+      Aletta
     </h1>
     <nav>
       <ul
@@ -16,7 +16,7 @@ exports[`test Header component should render as expected 1`] = `
             className="link"
             replace={false}
             to="/">
-             Home 
+            Posts
           </Link>
         </li>
         <li
@@ -25,7 +25,7 @@ exports[`test Header component should render as expected 1`] = `
             className="link"
             replace={false}
             to="/about">
-             About 
+            About
           </Link>
         </li>
       </ul>

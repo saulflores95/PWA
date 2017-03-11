@@ -7,4 +7,4 @@ test('Header component should render as expected', () => {
   const component = shallow(<Header />)
   const tree = toJson(component)
   expect(tree).toMatchSnapshot()
-})
+});

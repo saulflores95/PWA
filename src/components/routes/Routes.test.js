@@ -3,14 +3,14 @@ import { mount } from 'enzyme'
 import { MemoryRouter } from 'react-router'
 
 import Routes from './Routes'
-import Home from '../home/Home'
-import About from '../about/About'
-import PostDetail from '../postDetail/PostDetail'
-import NotFound from '../notfound/NotFound'
+import Home from '../Home/Home'
+import About from '../About/About'
+import PostDetail from '../PostDetail/PostDetail'
+import NotFound from '../NotFound/NotFound'
 
-test('should render routes when visiting /', () => {
+test('should render the Home component when visiting /', () => {
   const component = mount(
-    <MemoryRouter initialEntries={['/']} initialIndex={0}>
+    <MemoryRouter initialEntries={[ '/' ]} initialIndex={0}>
       <Routes />
     </MemoryRouter>
   )
@@ -18,9 +18,10 @@ test('should render routes when visiting /', () => {
   expect(component.find(Home).length).toBe(1)
 })
 
-test('should render routes when visiting /about', () => {
+
+test('should render the About component when visiting /about', () => {
   const component = mount(
-    <MemoryRouter initialEntries={['/about']} initialIndex={0}>
+    <MemoryRouter initialEntries={[ '/about' ]} initialIndex={0}>
       <Routes />
     </MemoryRouter>
   )
@@ -28,9 +29,9 @@ test('should render routes when visiting /about', () => {
   expect(component.find(About).length).toBe(1)
 })
 
-test('should render PostDetail when visiting /post/:slug', () => {
+test('should render the PostDetail component when visiting /post/:slug', () => {
   const component = mount(
-    <MemoryRouter initialEntries={['/post/getting-started-with-css-modules-in-webpack']} initialIndex={0}>
+    <MemoryRouter initialEntries={[ '/post/getting-started-with-css-modules-in-webpack' ]} initialIndex={0}>
       <Routes />
     </MemoryRouter>
   )
@@ -38,9 +39,9 @@ test('should render PostDetail when visiting /post/:slug', () => {
   expect(component.find(PostDetail).length).toBe(1)
 })
 
-test('should render NotFound  when visiting 404-not-found', () => {
+test('should render the NotFound component when visiting /404-not-found', () => {
   const component = mount(
-    <MemoryRouter initialEntries={['/404-not-found']} initialIndex={0}>
+    <MemoryRouter initialEntries={[ '/404-not-found' ]} initialIndex={0}>
       <Routes />
     </MemoryRouter>
   )

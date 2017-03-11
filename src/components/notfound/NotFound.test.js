@@ -7,4 +7,4 @@ test('NotFound component should render as expected', () => {
   const component = shallow(<NotFound />)
   const tree = toJson(component)
   expect(tree).toMatchSnapshot()
-})
+});

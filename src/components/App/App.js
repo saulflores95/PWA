@@ -3,8 +3,8 @@ import { BrowserRouter as Router } from 'react-router-dom'
 
 import 'normalize.css'
 import styles from './App.css'
-import Routes from '../routes/Routes'
-import Header from '../header/Header'
+import Header from '../Header/Header'
+import Routes from '../Routes/Routes'
 
 const App = () => (
   <Router>

@@ -1,10 +1,11 @@
 import React from 'react'
-import Post from '../post/Post'
+
+import Post from '../Post/Post'
 
 const Home = ({posts}) => (
   <div>
     {posts.length
-    ? posts.map(post => <Post key={post.slug} {...post} titleLink />) : <p>Awaiting Post </p>
+      ? posts.map(post => <Post {...post} key={post.slug} titleLink />) : <p>No posts here</p>
     }
   </div>
 )
